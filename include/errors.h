@@ -1,0 +1,6 @@
+#define IMPORT_ERRORS_H
+
+typedef enum error{
+    ERROR_FAILED_TO_OPEN_FILE = 1,
+    ERROR_FAILED_TO_READ_DATA_FROM_FILE
+} Errors;
